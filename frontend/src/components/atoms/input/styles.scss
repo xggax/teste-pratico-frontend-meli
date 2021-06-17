@@ -1,0 +1,12 @@
+.search-input {
+    flex-grow: 1;
+    padding-left: 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 0.125rem;
+    margin-right: 0.25rem;
+
+    &::placeholder {
+        font-size: 1.125rem;
+    }
+}

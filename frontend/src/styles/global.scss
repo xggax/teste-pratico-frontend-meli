@@ -1,0 +1,55 @@
+:root {
+    --yellow: #FFE600;
+    --black: #333333;
+    --gray: #999;
+    --blue: #3483f1;
+    --background: #EEEEEE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    @media (max-width: 1080px){
+        font-size: 93.75%
+    }
+
+    @media (min-width: 1080px){
+        font-size: 87.5% 
+    }
+}
+
+body{
+    background: var(--background);
+}
+
+body, input, textarea, button {
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}
+
+[disabled]{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+// .search-button{
+//     background: $search-img;
+//     outline: none;
+//     border: none;
+//     background-repeat: no-repeat;
+//     width: 2rem;
+//     height: 2rem;
+// }

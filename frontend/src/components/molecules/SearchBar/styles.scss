@@ -1,0 +1,16 @@
+.search-bar {
+    display: flex;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0.5rem 0.0625rem 0.5rem 1rem;
+    
+    form {
+        display: flex;
+        position: relative;
+        flex-grow: 1;
+    }
+}
+
+.logo{
+    margin-right: 1.25rem;
+}
